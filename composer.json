@@ -4,17 +4,9 @@
     "description": "Main system private for modoc developer", 
     "homepage": "https://modoc.id",
     "license": "MIT",
-    "type": "luya-extension",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/modoclib/modocsys"
-        }
-    ],
     "require": { 
         "php": ">=5.6.0",
-        "illuminate/support" : ">=5.4.0",
-        "php-amqplib/php-amqplib" : ">=5.4.0" 
+        "illuminate/support" : ">=5.4.0" 
     }, 
     "autoload": {
         "psr-4": {
