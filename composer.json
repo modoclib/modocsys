@@ -4,7 +4,7 @@
     "description": "Main system private for modoc developer", 
     "homepage": "https://modoc.id",
     "license": "MIT",
-    "type": "library",
+    "type": "luya-extension",
     "repositories": [
         {
             "type": "vcs",
