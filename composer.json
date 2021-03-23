@@ -5,6 +5,12 @@
     "homepage": "https://modoc.id",
     "license": "MIT",
     "type": "library",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/modoclib/modocsys"
+        }
+    ],
     "require": { 
         "php": ">=5.6.0",
         "illuminate/support" : ">=5.4.0",
