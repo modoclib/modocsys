@@ -1,0 +1,25 @@
+{
+    "name": "modoclib/modocsys", 
+    "keywords": ["modocsystem","modocmessagebroker"],
+    "description": "Main system private for modoc developer", 
+    "homepage": "https://modoc.id",
+    "license": "MIT",
+    "require": { 
+        "php": ">=7.1.0",
+        "illuminate/support" : ">=5.4.0",
+        "mongodb/mongodb" : ">=7.1.0",
+        "php-amqplib/php-amqplib" : ">=5.4.0",
+    }, 
+    "autoload": {
+        "psr-4": {
+          "Modoclib\\ModocSys\\": "src/"
+        }
+      },
+    "authors": [
+        {
+            "name": "Guntur Ristiarto",
+            "email": "gunturris@gmail.com" 
+        }
+    ] ,  
+    "minimum-stability": "dev"
+}
