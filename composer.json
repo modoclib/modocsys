@@ -1,9 +1,6 @@
 {
-    "name": "modoclib/modocsys", 
-    "keywords": ["modocsystem","modocmessagebroker"],
-    "description": "Main system private for modoc developer", 
-    "homepage": "https://modoclb.or.id",
-    "license": "MIT",
+    "name": "modoclib/modocsys",  
+    "description": "Main system private for modoc developer",  
     "require": { 
         "php": ">=5.6.0",
         "illuminate/support" : ">=5.4.0" 
